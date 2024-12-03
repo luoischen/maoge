@@ -1,0 +1,20 @@
+{
+    "sites": {
+        "sanmo": {
+            "name": "山猫游戏",
+            "enabled": true,
+            "base_url": "https://www.sanmoganme.com",
+            "selectors": {
+                "title": "h1",
+                "download_links": {
+                    "百度网盘": "//a[contains(@href,'pan.baidu.com')]",
+                    "天翼网盘": "//a[contains(@href,'cloud.189.cn')]",
+                    "迅雷网盘": "//a[contains(@href,'pan.xunlei.com')]",
+                    "阿里网盘": "//a[contains(@href,'aliyundrive.com')]",
+                    "夸克网盘": "//a[contains(@href,'pan.quark.cn')]",
+                    "123网盘": "//a[contains(@href,'123pan.com')]"
+                }
+            }
+        }
+    }
+} 
